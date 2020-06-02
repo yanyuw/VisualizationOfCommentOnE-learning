@@ -1,0 +1,74 @@
+<template>
+  <div class="trend">
+    <div id="weibo-trend" class="container"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "EmotionTrendGraph",
+  mounted() {
+    this.draw()
+  },
+  methods: {
+    draw() {
+      let trendJson = require("../assets/weibo-trend.json");
+      let timeArr = trendJson.map((val) => {
+        return val["time"]
+      })
+      let senArr = trendJson.map((val) => {
+        return val["sentiments"]
+      })
+      
+      let myChart = this.$echarts.init(document.getElementById('weibo-trend'))
+      // var app = {};
+      myChart.setOption( {
+        title: {
+          text: "微博舆论情感态度倾向变化"
+        },
+        tooltip: {
+          trigger: "axis"
+        },
+        legend: {
+          data: ["微博"]
+        },
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true
+        },
+        toolbox: {
+          feature: {
+            saveAsImage: {}
+          }
+        },
+        xAxis: {
+          type: "category",
+          boundaryGap: false,
+          data: timeArr
+        },
+        yAxis: {
+          type: "value"
+        },
+        series: [
+          {
+            name: "微博",
+            type: "line",
+            stack: "总量",
+            data: senArr
+          },
+        ]
+      })
+    }
+  }
+};
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.trend{
+  position: absolute;
+  right: 0;
+}
+</style>

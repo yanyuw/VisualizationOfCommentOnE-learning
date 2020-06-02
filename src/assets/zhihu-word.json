@@ -1,0 +1,1002 @@
+[{
+        "word": "老师",
+        "freq": 795,
+        "sentiments": 0.878881988
+    },
+    {
+        "word": "—",
+        "freq": 433,
+        "sentiments": 0.9
+    },
+    {
+        "word": "网课",
+        "freq": 360,
+        "sentiments": 0.605562161
+    },
+    {
+        "word": "会",
+        "freq": 326,
+        "sentiments": 0.553903346
+    },
+    {
+        "word": "课",
+        "freq": 276,
+        "sentiments": 0.741935484
+    },
+    {
+        "word": "一个",
+        "freq": 271,
+        "sentiments": 0.504759934
+    },
+    {
+        "word": "做",
+        "freq": 270,
+        "sentiments": 0.611601513
+    },
+    {
+        "word": "学习",
+        "freq": 245,
+        "sentiments": 0.834745763
+    },
+    {
+        "word": "学生",
+        "freq": 195,
+        "sentiments": 0.703703704
+    },
+    {
+        "word": "英语",
+        "freq": 195,
+        "sentiments": 0.418326693
+    },
+    {
+        "word": "很多",
+        "freq": 174,
+        "sentiments": 0.654303376
+    },
+    {
+        "word": "时间",
+        "freq": 169,
+        "sentiments": 0.539944904
+    },
+    {
+        "word": "考研",
+        "freq": 159,
+        "sentiments": 0.975629566
+    },
+    {
+        "word": "同学",
+        "freq": 156,
+        "sentiments": 0.796052632
+    },
+    {
+        "word": "视频",
+        "freq": 145,
+        "sentiments": 0.52173913
+    },
+    {
+        "word": "问题",
+        "freq": 128,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "课程",
+        "freq": 128,
+        "sentiments": 0.764705882
+    },
+    {
+        "word": "一定",
+        "freq": 125,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "真题",
+        "freq": 119,
+        "sentiments": 0.941176471
+    },
+    {
+        "word": "复习",
+        "freq": 116,
+        "sentiments": 0.961538462
+    },
+    {
+        "word": "基础",
+        "freq": 116,
+        "sentiments": 0.75
+    },
+    {
+        "word": "阅读",
+        "freq": 113,
+        "sentiments": 0.745038168
+    },
+    {
+        "word": "孩子",
+        "freq": 107,
+        "sentiments": 0.768406961
+    },
+    {
+        "word": "推荐",
+        "freq": 105,
+        "sentiments": 0.632587859
+    },
+    {
+        "word": "钉",
+        "freq": 103,
+        "sentiments": 0.277777778
+    },
+    {
+        "word": "听",
+        "freq": 102,
+        "sentiments": 0.590070922
+    },
+    {
+        "word": "数学",
+        "freq": 102,
+        "sentiments": 0.949367089
+    },
+    {
+        "word": "觉得",
+        "freq": 100,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "比较",
+        "freq": 97,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "中",
+        "freq": 96,
+        "sentiments": 0.71503017
+    },
+    {
+        "word": "真的",
+        "freq": 94,
+        "sentiments": 0.530509691
+    },
+    {
+        "word": "口语",
+        "freq": 91,
+        "sentiments": 0.40631828
+    },
+    {
+        "word": "讲",
+        "freq": 91,
+        "sentiments": 0.64399093
+    },
+    {
+        "word": "上课",
+        "freq": 90,
+        "sentiments": 0.916666667
+    },
+    {
+        "word": "想",
+        "freq": 90,
+        "sentiments": 0.544178991
+    },
+    {
+        "word": "听力",
+        "freq": 87,
+        "sentiments": 0.9375
+    },
+    {
+        "word": "考试",
+        "freq": 85,
+        "sentiments": 0.9
+    },
+    {
+        "word": "雅思",
+        "freq": 85,
+        "sentiments": 0.923100561
+    },
+    {
+        "word": "练习",
+        "freq": 84,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "题",
+        "freq": 83,
+        "sentiments": 0.843137255
+    },
+    {
+        "word": "一下",
+        "freq": 76,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "非常",
+        "freq": 75,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "不要",
+        "freq": 74,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "/",
+        "freq": 74,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "直播",
+        "freq": 70,
+        "sentiments": 0.333333333
+    },
+    {
+        "word": "最后",
+        "freq": 70,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "单词",
+        "freq": 70,
+        "sentiments": 0.289915966
+    },
+    {
+        "word": "知道",
+        "freq": 70,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "理解",
+        "freq": 68,
+        "sentiments": 0.649885584
+    },
+    {
+        "word": "学校",
+        "freq": 68,
+        "sentiments": 0.956989247
+    },
+    {
+        "word": "作业",
+        "freq": 67,
+        "sentiments": 0.863636364
+    },
+    {
+        "word": "托福",
+        "freq": 66,
+        "sentiments": 0.391383654
+    },
+    {
+        "word": "题目",
+        "freq": 65,
+        "sentiments": 0.795918367
+    },
+    {
+        "word": "政治",
+        "freq": 65,
+        "sentiments": 0.833333333
+    },
+    {
+        "word": "需要",
+        "freq": 63,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": ":",
+        "freq": 63,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "机构",
+        "freq": 62,
+        "sentiments": 0.47826087
+    },
+    {
+        "word": "选择",
+        "freq": 62,
+        "sentiments": 0.614800759
+    },
+    {
+        "word": "哈哈哈",
+        "freq": 61,
+        "sentiments": 0.868421053
+    },
+    {
+        "word": "写作",
+        "freq": 59,
+        "sentiments": 0.604395604
+    },
+    {
+        "word": "资料",
+        "freq": 57,
+        "sentiments": 0.494252874
+    },
+    {
+        "word": "完",
+        "freq": 56,
+        "sentiments": 0.663353214
+    },
+    {
+        "word": "月",
+        "freq": 55,
+        "sentiments": 0.3919768
+    },
+    {
+        "word": "内容",
+        "freq": 55,
+        "sentiments": 0.436162871
+    },
+    {
+        "word": "重要",
+        "freq": 54,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "方法",
+        "freq": 54,
+        "sentiments": 0.679487179
+    },
+    {
+        "word": "更",
+        "freq": 54,
+        "sentiments": 0.624176858
+    },
+    {
+        "word": "买",
+        "freq": 53,
+        "sentiments": 0.508696586
+    },
+    {
+        "word": "讲义",
+        "freq": 51,
+        "sentiments": 0.636363636
+    },
+    {
+        "word": "里",
+        "freq": 51,
+        "sentiments": 0.518357488
+    },
+    {
+        "word": "上网",
+        "freq": 50,
+        "sentiments": 0.569491525
+    },
+    {
+        "word": "家长",
+        "freq": 49,
+        "sentiments": 0.816513761
+    },
+    {
+        "word": "+",
+        "freq": 49,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "现在",
+        "freq": 48,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "教学",
+        "freq": 46,
+        "sentiments": 0.872340426
+    },
+    {
+        "word": "阶段",
+        "freq": 46,
+        "sentiments": 0.850746269
+    },
+    {
+        "word": "长",
+        "freq": 46,
+        "sentiments": 0.573208723
+    },
+    {
+        "word": "课堂",
+        "freq": 46,
+        "sentiments": 0.9375
+    },
+    {
+        "word": "年",
+        "freq": 45,
+        "sentiments": 0.549258475
+    },
+    {
+        "word": "之后",
+        "freq": 45,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "难句",
+        "freq": 45,
+        "sentiments": 0.460620051
+    },
+    {
+        "word": "书",
+        "freq": 44,
+        "sentiments": 0.624986537
+    },
+    {
+        "word": "可能",
+        "freq": 44,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "张宇",
+        "freq": 44,
+        "sentiments": 0.256241348
+    },
+    {
+        "word": "作文",
+        "freq": 44,
+        "sentiments": 0.813953488
+    },
+    {
+        "word": "建议",
+        "freq": 44,
+        "sentiments": 0.367383513
+    },
+    {
+        "word": "每天",
+        "freq": 42,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "部分",
+        "freq": 41,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "写",
+        "freq": 41,
+        "sentiments": 0.523295071
+    },
+    {
+        "word": "适合",
+        "freq": 41,
+        "sentiments": 0.618994413
+    },
+    {
+        "word": "刷",
+        "freq": 40,
+        "sentiments": 0.17699115
+    },
+    {
+        "word": "小时",
+        "freq": 39,
+        "sentiments": 0.497900924
+    },
+    {
+        "word": "直接",
+        "freq": 39,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "物理",
+        "freq": 38,
+        "sentiments": 0.416666667
+    },
+    {
+        "word": "词",
+        "freq": 38,
+        "sentiments": 0.666666667
+    },
+    {
+        "word": "背",
+        "freq": 38,
+        "sentiments": 0.536
+    },
+    {
+        "word": "当时",
+        "freq": 37,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "词汇",
+        "freq": 36,
+        "sentiments": 0.272727273
+    },
+    {
+        "word": "文章",
+        "freq": 36,
+        "sentiments": 0.589641434
+    },
+    {
+        "word": "️",
+        "freq": 36,
+        "sentiments": 0.5
+    },
+    {
+        "word": "班",
+        "freq": 35,
+        "sentiments": 0.754716981
+    },
+    {
+        "word": "ACCA",
+        "freq": 34,
+        "sentiments": 0.5
+    },
+    {
+        "word": "培训",
+        "freq": 34,
+        "sentiments": 0.330508475
+    },
+    {
+        "word": "其实",
+        "freq": 34,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "进行",
+        "freq": 32,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "一遍",
+        "freq": 31,
+        "sentiments": 0.750670241
+    },
+    {
+        "word": "备考",
+        "freq": 31,
+        "sentiments": 0.5
+    },
+    {
+        "word": "肖秀荣",
+        "freq": 30,
+        "sentiments": 0.729795391
+    },
+    {
+        "word": "思路",
+        "freq": 29,
+        "sentiments": 0.745098039
+    },
+    {
+        "word": "平台",
+        "freq": 28,
+        "sentiments": 0.5
+    },
+    {
+        "word": "回答",
+        "freq": 28,
+        "sentiments": 0.266304348
+    },
+    {
+        "word": "一点",
+        "freq": 28,
+        "sentiments": 0.465381245
+    },
+    {
+        "word": "软件",
+        "freq": 27,
+        "sentiments": 0.437383178
+    },
+    {
+        "word": "在线",
+        "freq": 27,
+        "sentiments": 0.142857143
+    },
+    {
+        "word": "教材",
+        "freq": 27,
+        "sentiments": 0.819277108
+    },
+    {
+        "word": "教育",
+        "freq": 27,
+        "sentiments": 0.792626728
+    },
+    {
+        "word": "看到",
+        "freq": 26,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "超哥",
+        "freq": 26,
+        "sentiments": 0.5
+    },
+    {
+        "word": "打卡",
+        "freq": 26,
+        "sentiments": 0.5
+    },
+    {
+        "word": "信息",
+        "freq": 26,
+        "sentiments": 0.5
+    },
+    {
+        "word": "使用",
+        "freq": 25,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "不会",
+        "freq": 25,
+        "sentiments": 0.395702747
+    },
+    {
+        "word": "主要",
+        "freq": 25,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "帮助",
+        "freq": 25,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "分析",
+        "freq": 25,
+        "sentiments": 0.884615385
+    },
+    {
+        "word": "坚持",
+        "freq": 25,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "逻辑",
+        "freq": 25,
+        "sentiments": 0.623376623
+    },
+    {
+        "word": "能够",
+        "freq": 25,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "李永乐",
+        "freq": 25,
+        "sentiments": 0.395401897
+    },
+    {
+        "word": "～",
+        "freq": 25,
+        "sentiments": 0.553398058
+    },
+    {
+        "word": "线代",
+        "freq": 24,
+        "sentiments": 0.5
+    },
+    {
+        "word": 1000,
+        "freq": 23,
+        "sentiments": 0.633333333
+    },
+    {
+        "word": "知识",
+        "freq": 23,
+        "sentiments": 0.871657754
+    },
+    {
+        "word": "线上",
+        "freq": 22,
+        "sentiments": 0.547764658
+    },
+    {
+        "word": "套卷",
+        "freq": 22,
+        "sentiments": 0.603352938
+    },
+    {
+        "word": "表达",
+        "freq": 22,
+        "sentiments": 0.639705882
+    },
+    {
+        "word": "已经",
+        "freq": 22,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "在家",
+        "freq": 22,
+        "sentiments": 0.508209539
+    },
+    {
+        "word": "「",
+        "freq": 21,
+        "sentiments": 0.416666667
+    },
+    {
+        "word": "」",
+        "freq": 21,
+        "sentiments": 0.3
+    },
+    {
+        "word": "钱",
+        "freq": 21,
+        "sentiments": 0.299116998
+    },
+    {
+        "word": "授课",
+        "freq": 21,
+        "sentiments": 0.5
+    },
+    {
+        "word": "知识点",
+        "freq": 21,
+        "sentiments": 0.825697171
+    },
+    {
+        "word": "高分",
+        "freq": 21,
+        "sentiments": 0.563221648
+    },
+    {
+        "word": "电脑",
+        "freq": 21,
+        "sentiments": 0.508632138
+    },
+    {
+        "word": "二姐",
+        "freq": 20,
+        "sentiments": 0.5
+    },
+    {
+        "word": "一直",
+        "freq": 20,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "徐涛",
+        "freq": 19,
+        "sentiments": 0.5
+    },
+    {
+        "word": "分钟",
+        "freq": 19,
+        "sentiments": 0.414918415
+    },
+    {
+        "word": "总结",
+        "freq": 19,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "努力",
+        "freq": 19,
+        "sentiments": 0.634920635
+    },
+    {
+        "word": "二",
+        "freq": 19,
+        "sentiments": 0.487534626
+    },
+    {
+        "word": "❤",
+        "freq": 19,
+        "sentiments": 0.5
+    },
+    {
+        "word": "啊啊啊",
+        "freq": 18,
+        "sentiments": 0.75
+    },
+    {
+        "word": "工具",
+        "freq": 18,
+        "sentiments": 0.736842105
+    },
+    {
+        "word": "解题",
+        "freq": 18,
+        "sentiments": 0.75
+    },
+    {
+        "word": 10,
+        "freq": 18,
+        "sentiments": 0.35235378
+    },
+    {
+        "word": "哈哈哈哈",
+        "freq": 17,
+        "sentiments": 0.868421053
+    },
+    {
+        "word": "开学",
+        "freq": 17,
+        "sentiments": 0.2
+    },
+    {
+        "word": "疫情",
+        "freq": 17,
+        "sentiments": 0.5
+    },
+    {
+        "word": "技巧",
+        "freq": 17,
+        "sentiments": 0.671232877
+    },
+    {
+        "word": "⭐",
+        "freq": 17,
+        "sentiments": 0.5
+    },
+    {
+        "word": 20,
+        "freq": 16,
+        "sentiments": 0.373937677
+    },
+    {
+        "word": "以后",
+        "freq": 16,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "语法",
+        "freq": 16,
+        "sentiments": 0.928571429
+    },
+    {
+        "word": "教师",
+        "freq": 16,
+        "sentiments": 0.75
+    },
+    {
+        "word": "一句",
+        "freq": 16,
+        "sentiments": 0.535874439
+    },
+    {
+        "word": "答疑",
+        "freq": 16,
+        "sentiments": 0.5
+    },
+    {
+        "word": "注意",
+        "freq": 16,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "网上",
+        "freq": 16,
+        "sentiments": 0.42510699
+    },
+    {
+        "word": "家里",
+        "freq": 16,
+        "sentiments": 0.747747748
+    },
+    {
+        "word": "笑",
+        "freq": 15,
+        "sentiments": 0.7
+    },
+    {
+        "word": "屏幕",
+        "freq": 15,
+        "sentiments": 0.508675799
+    },
+    {
+        "word": "F1",
+        "freq": 15,
+        "sentiments": 0.25
+    },
+    {
+        "word": "选择题",
+        "freq": 14,
+        "sentiments": 0.885367205
+    },
+    {
+        "word": "答案",
+        "freq": 14,
+        "sentiments": 0.7625
+    },
+    {
+        "word": "新",
+        "freq": 13,
+        "sentiments": 0.646103896
+    },
+    {
+        "word": "摄像头",
+        "freq": 13,
+        "sentiments": 0.514847356
+    },
+    {
+        "word": "假期",
+        "freq": 13,
+        "sentiments": 0.571428571
+    },
+    {
+        "word": "网校",
+        "freq": 13,
+        "sentiments": 0.5
+    },
+    {
+        "word": "计划",
+        "freq": 13,
+        "sentiments": 0.242424242
+    },
+    {
+        "word": "玩",
+        "freq": 12,
+        "sentiments": 0.669724771
+    },
+    {
+        "word": "考察",
+        "freq": 12,
+        "sentiments": 0.2
+    },
+    {
+        "word": "综合",
+        "freq": 12,
+        "sentiments": 0.533333333
+    },
+    {
+        "word": "概率论",
+        "freq": 12,
+        "sentiments": 0.5
+    },
+    {
+        "word": "里面",
+        "freq": 12,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "P",
+        "freq": 12,
+        "sentiments": 0.75
+    },
+    {
+        "word": "孤独",
+        "freq": 11,
+        "sentiments": 0.976190476
+    },
+    {
+        "word": "替换",
+        "freq": 11,
+        "sentiments": 0.3
+    },
+    {
+        "word": "Ta",
+        "freq": 11,
+        "sentiments": 0.5
+    },
+    {
+        "word": "我弟",
+        "freq": 11,
+        "sentiments": 0.5
+    },
+    {
+        "word": "卷",
+        "freq": 11,
+        "sentiments": 0.470588235
+    },
+    {
+        "word": 30,
+        "freq": 11,
+        "sentiments": 0.404444444
+    },
+    {
+        "word": "考官",
+        "freq": 11,
+        "sentiments": 0.5
+    },
+    {
+        "word": "线下",
+        "freq": 11,
+        "sentiments": 0.542102082
+    },
+    {
+        "word": "过往",
+        "freq": 10,
+        "sentiments": 0.588235294
+    },
+    {
+        "word": "呜呜",
+        "freq": 10,
+        "sentiments": 0.526232782
+    },
+    {
+        "word": "提问",
+        "freq": 10,
+        "sentiments": 0.6
+    },
+    {
+        "word": "活动",
+        "freq": 10,
+        "sentiments": 0.629139073
+    },
+    {
+        "word": 18,
+        "freq": 10,
+        "sentiments": 0.543478261
+    }
+
+]
