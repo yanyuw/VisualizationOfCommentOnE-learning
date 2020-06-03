@@ -3,16 +3,18 @@
     <img src="./assets/header.png" class="header" />
     <MapGraph />
     <!-- <div class="box-container"> -->
-      <div class="top box">
-        <TrendGraph />
-        <Card />
-        <EmotionTrendGraph />
-      </div>
-      <div class="bottom box">
-
-        <Wordcloud />
-        <EmotionCompare />
-      </div>
+    <div class="top box">
+      <Card />
+      <EmotionTrendGraph />
+    </div>
+    <div class="middle box">
+      <TrendGraph />
+      <EmotionCompare id="compare1"/>
+    </div>
+    <div class="bottom box">
+      <Wordcloud />
+      <EmotionCompare v-bind:isAge="false" id="compare2"/>
+    </div>
     <!-- </div> -->
   </div>
 </template>
@@ -47,8 +49,8 @@ body {
   height: 100%;
   background: url(./assets/background.png) no-repeat fixed top;
 }
-#app{
-  height: 0
+#app {
+  height: 0;
 }
 .container {
   width: 500px;
@@ -74,10 +76,13 @@ body {
 .box {
   display: flex;
   height: 0;
+  justify-content: space-between;
+}
+.middle {
+  margin-top: 300px;
 }
 .bottom {
-  margin-top: 550px;
-  justify-content: space-between;
+  margin-top: 300px;
 }
 .header {
   object-fit: cover;

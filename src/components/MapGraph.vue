@@ -15,7 +15,7 @@ export default {
     draw() {
       let data = require("../assets/weibo-map.json");
 
-      console.log(data);
+      // console.log(data);
       let myChart = this.$echarts.init(document.getElementById("map"));
       myChart.setOption({
         title: {
@@ -45,7 +45,7 @@ export default {
           // color: "#00eeff",
           min: 0,
           max: 1,
-          left: 600,
+          left: 400,
           top: "bottom",
           text: ["积极", "消极"], // 文本，默认为数值文本
           calculable: true,
@@ -87,7 +87,7 @@ export default {
                 //未选中状态
                 // borderWidth: 2, //边框大小
                 // borderColor: "lightgreen",
-                // areaColor: "orange", //背景颜色
+                areaColor: "rgb(255,255,255,0.5)", //背景颜色
                 label: {
                   show: true //显示名称
                 }
@@ -124,8 +124,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .whole-conatiner {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 8%;
 }
 .map {
   position: absolute;

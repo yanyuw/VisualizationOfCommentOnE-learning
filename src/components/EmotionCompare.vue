@@ -1,17 +1,29 @@
 <template>
   <div class="compare">
-    <button class="button" v-on:click="drawAge()">年龄比较</button>
-    <button class="button" v-on:click="drawGender()">性别比较</button>
-    <div id="compare" class="container"></div>
+    <!-- <button class="button" v-on:click="drawAge()">年龄比较</button> -->
+    <!-- <button class="button" v-on:click="drawGender()">性别比较</button> -->
+    <div v-bind:id="id" class="container"></div>
   </div>
 </template>
 
 <script>
 export default {
   name: "EmotionCompare",
+  props: {
+    isAge: {
+      type:Boolean,
+      default:true
+    },
+    id: String
+  },
   mounted() {
-    this.drawAge();
-    // this.drawGender();
+    console.log(this.id, this.isAge)
+    if (this.isAge) {
+      this.drawAge();
+    } else {
+      1;
+      this.drawGender();
+    }
   },
   methods: {
     drawGender() {
@@ -26,10 +38,10 @@ export default {
           male[this.getEmotion(val["sentiments"])]++;
         } else {
           unknown[this.getEmotion(val["sentiments"])]++;
-        } 
+        }
       });
 
-      let myChart = this.$echarts.init(document.getElementById("compare"));
+      let myChart = this.$echarts.init(document.getElementById(this.id));
 
       myChart.setOption({
         title: {
@@ -97,7 +109,7 @@ export default {
             name: "未知",
             type: "bar",
             data: unknown
-          },
+          }
         ]
       });
     },
@@ -120,7 +132,7 @@ export default {
       });
       console.log(_00emotion);
 
-      let myChart = this.$echarts.init(document.getElementById("compare"));
+      let myChart = this.$echarts.init(document.getElementById(this.id));
 
       myChart.setOption({
         title: {
