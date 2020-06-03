@@ -8,24 +8,33 @@
 export default {
   name: "TrendGraph",
   mounted() {
-    this.draw()
+    this.draw();
   },
   methods: {
     draw() {
       let trendJson = require("../assets/trend.json");
 
-      
-      let myChart = this.$echarts.init(document.getElementById('graph1'))
+      let myChart = this.$echarts.init(document.getElementById("graph1"));
       // var app = {};
-      myChart.setOption( {
+      const option = {
         title: {
-          text: "微博指数"
+          text: "微博指数",
+          textStyle: {
+            fontSize: 20, //字体大小
+            color: "#ffffff" //字体颜色
+          },
+          x: "center"
         },
         tooltip: {
           trigger: "axis"
         },
         legend: {
-          data: ["微博"]
+          data: ["微博"],
+          x: "left",
+          y: 20,
+          textStyle: {
+            color: "#00eeff" // 图例文字的颜色
+          }
         },
         grid: {
           left: "3%",
@@ -35,16 +44,33 @@ export default {
         },
         toolbox: {
           feature: {
-            saveAsImage: {}
+            mark: { show: true },
+            dataView: {
+              show: true,
+              readOnly: false,
+            },
+            // restore: { show: true },
+            saveAsImage: { show: true },
+            magicType: { type: ["line", "bar"] }
           }
         },
         xAxis: {
           type: "category",
           boundaryGap: false,
-          data: trendJson["data"]["x"]
+          data: trendJson["data"]["x"],
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
         },
         yAxis: {
-          type: "value"
+          type: "value",
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
         },
         series: [
           {
@@ -52,9 +78,11 @@ export default {
             type: "line",
             stack: "总量",
             data: trendJson["data"]["s"]
-          },
+          }
         ]
-      })
+      };
+
+      myChart.setOption(option);
     }
   }
 };
@@ -62,4 +90,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.trend {
+}
 </style>

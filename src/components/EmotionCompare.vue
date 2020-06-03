@@ -1,5 +1,7 @@
 <template>
   <div class="compare">
+    <button class="button" v-on:click="drawAge()">年龄比较</button>
+    <button class="button" v-on:click="drawGender()">性别比较</button>
     <div id="compare" class="container"></div>
   </div>
 </template>
@@ -8,10 +10,98 @@
 export default {
   name: "EmotionCompare",
   mounted() {
-    this.draw();
+    this.drawAge();
+    // this.drawGender();
   },
   methods: {
-    draw() {
+    drawGender() {
+      let emotionsJson = require("../assets/weibo-emotions.json");
+      let female = [0, 0, 0];
+      let male = [0, 0, 0];
+      let unknown = [0, 0, 0];
+      emotionsJson.map(val => {
+        if (val["gender"] == "女") {
+          female[this.getEmotion(val["sentiments"])]++;
+        } else if (val["gender"] == "男") {
+          male[this.getEmotion(val["sentiments"])]++;
+        } else {
+          unknown[this.getEmotion(val["sentiments"])]++;
+        } 
+      });
+
+      let myChart = this.$echarts.init(document.getElementById("compare"));
+
+      myChart.setOption({
+        title: {
+          text: "情感态度性别对比",
+          textStyle: {
+            fontSize: 20, //字体大小
+            color: "#ffffff" //字体颜色
+          },
+          x: "center"
+        },
+        tooltip: {},
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true
+        },
+        legend: {
+          data: ["女", "男", "未知"],
+          x: "center",
+          y: 35,
+          textStyle: {
+            color: "#00eeff" // 图例文字的颜色
+          }
+        },
+        toolbox: {
+          feature: {
+            mark: { show: true },
+            dataView: {
+              show: true,
+              readOnly: false
+            },
+            // restore: { show: true },
+            saveAsImage: { show: true },
+            magicType: { type: ["line", "bar"] }
+          }
+        },
+        xAxis: {
+          data: ["积极", "中立", "消极"],
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
+        },
+        yAxis: {
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
+        },
+        series: [
+          {
+            name: "女",
+            type: "bar",
+            data: female
+          },
+          {
+            name: "男",
+            type: "bar",
+            data: male
+          },
+          {
+            name: "未知",
+            type: "bar",
+            data: unknown
+          },
+        ]
+      });
+    },
+    drawAge() {
       let emotionsJson = require("../assets/weibo-emotions.json");
       let _00emotion = [0, 0, 0];
       let _90emotion = [0, 0, 0];
@@ -34,17 +124,55 @@ export default {
 
       myChart.setOption({
         title: {
-          text: "情感态度年龄对比"
+          text: "情感态度年龄对比",
+          textStyle: {
+            fontSize: 20, //字体大小
+            color: "#ffffff" //字体颜色
+          },
+          x: "center"
         },
         tooltip: {},
+        grid: {
+          left: "3%",
+          right: "4%",
+          bottom: "3%",
+          containLabel: true
+        },
         legend: {
           data: ["70后", "80后", "90后", "00后"],
-          right: "4%"
+          x: "center",
+          y: 35,
+          textStyle: {
+            color: "#00eeff" // 图例文字的颜色
+          }
+        },
+        toolbox: {
+          feature: {
+            mark: { show: true },
+            dataView: {
+              show: true,
+              readOnly: false
+            },
+            // restore: { show: true },
+            saveAsImage: { show: true },
+            magicType: { type: ["line", "bar"] }
+          }
         },
         xAxis: {
-          data: ["积极", "中立", "消极"]
+          data: ["积极", "中立", "消极"],
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
         },
-        yAxis: {},
+        yAxis: {
+          axisLabel: {
+            textStyle: {
+              color: "#7edae8" //坐标的字体颜色
+            }
+          }
+        },
         series: [
           {
             name: "70后",
@@ -69,7 +197,6 @@ export default {
         ]
       });
     },
-
     getEmotion(emotion) {
       if (emotion <= 1 / 3) {
         return 2;
@@ -85,9 +212,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.compare {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+.button {
+  outline: none;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0;
+  padding: 5px 10px;
+  margin: 0 20px 10px;
+  cursor: pointer;
 }
 </style>

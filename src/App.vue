@@ -1,24 +1,31 @@
 <template>
   <div id="app">
-
-    <Card />
+    <img src="./assets/header.png" class="header" />
     <MapGraph />
-    <TrendGraph />
-    <EmotionTrendGraph />
-    <EmotionCompare />
-    <Wordcloud />
+    <!-- <div class="box-container"> -->
+      <div class="top box">
+        <TrendGraph />
+        <Card />
+        <EmotionTrendGraph />
+      </div>
+      <div class="bottom box">
+
+        <Wordcloud />
+        <EmotionCompare />
+      </div>
+    <!-- </div> -->
   </div>
 </template>
 
 <script>
-import TrendGraph from './components/TrendGraph.vue'
-import EmotionTrendGraph from './components/EmotionTrendGraph.vue'
-import MapGraph from './components/MapGraph.vue'
-import EmotionCompare from './components/EmotionCompare.vue'
-import Card from './components/Card.vue'
-import Wordcloud from './components/Wordcloud.vue'
+import TrendGraph from "./components/TrendGraph.vue";
+import EmotionTrendGraph from "./components/EmotionTrendGraph.vue";
+import MapGraph from "./components/MapGraph.vue";
+import EmotionCompare from "./components/EmotionCompare.vue";
+import Card from "./components/Card.vue";
+import Wordcloud from "./components/Wordcloud.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     TrendGraph,
     EmotionTrendGraph,
@@ -27,18 +34,54 @@ export default {
     Card,
     Wordcloud
   }
-}
+};
 </script>
 
 <style>
-.container{
-    width: 600px;
-    height: 300px;
+* {
+  padding: 0;
+  margin: 0;
 }
-.trend, .compare, .card, .wordcloud{
+body {
+  width: 100%;
+  height: 100%;
+  background: url(./assets/background.png) no-repeat fixed top;
+}
+#app{
+  height: 0
+}
+.container {
+  width: 500px;
+  height: 250px;
+
+  background: url(./assets/kuang.png) no-repeat;
+  padding: 0 20px 20px;
+  background-size: 100% 100%;
+}
+.trend,
+.compare,
+.card,
+.wordcloud {
+  margin-top: -20px;
   padding: 20px;
   display: inline-block;
-  background-color: rgba(230, 220, 220, 0.4);
-  border-radius: 5%
+}
+.box-container {
+  /* display: flex;
+  flex-direction: column; 
+  height: 100vh;  */
+}
+.box {
+  display: flex;
+  height: 0;
+}
+.bottom {
+  margin-top: 550px;
+  justify-content: space-between;
+}
+.header {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
 }
 </style>
