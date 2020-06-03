@@ -33,9 +33,9 @@ export default {
         },
         legend: {
           orient: "vertical",
-          left: "left",
+          x: "center",
 
-          top: "middle",
+          y: "top",
           data: ["舆论指数"],
           textStyle: {
             color: "#00eeff"
