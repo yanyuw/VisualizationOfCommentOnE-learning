@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div id="total" class="container">
-      <div class="total-title">舆论数据</div>
+      <div class="total-title">爬取舆论数据</div>
       <div class="text-container">
         <div class="title">总舆论数:</div>
         <div class="num">{{total}}</div>
@@ -40,10 +40,16 @@ export default {
     count() {
       let weibo_total = require("../assets/weibo-total.json");
       let zhihu_total = require("../assets/zhihu-emotions.json");
-      this.pos = weibo_total["pos_total"] + zhihu_total["pos_total"];
-      this.mid = weibo_total["mid_total"] + zhihu_total["mid_total"];
-      this.nag = weibo_total["nag_total"] + zhihu_total["nag_total"];
-      this.total = this.pos + this.mid + this.nag;
+      let posNum = weibo_total["pos_total"] + zhihu_total["pos_total"]
+      let midNum = weibo_total["mid_total"] + zhihu_total["mid_total"]
+      let nagNum = weibo_total["nag_total"] + zhihu_total["nag_total"]
+      this.pos = this.toThousands(posNum)
+      this.mid = this.toThousands(midNum)
+      this.nag = this.toThousands(nagNum)
+      this.total = this.toThousands(posNum+midNum+nagNum)
+    },
+    toThousands(num) {
+      return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, "$1,");
     }
   }
 };
@@ -54,7 +60,7 @@ export default {
 .card {
   display: inline-block;
   text-align: center;
-  padding: 20px;
+  /* padding: 0 20px 10px; */
   background-size: 100% 100%;
   color: #fff;
   vertical-align: top;
@@ -67,8 +73,7 @@ export default {
   margin-bottom: 20px;
 }
 .title {
-  
-  width: 80%;
+  width: 75%;
   display: inline-block;
   margin-left: -20%;
   letter-spacing: 2px;

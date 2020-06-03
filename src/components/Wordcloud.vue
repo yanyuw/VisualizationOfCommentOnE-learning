@@ -13,14 +13,21 @@ export default {
   },
   methods: {
     initChart() {
-      let emotionsJson = require("../assets/weibo-word-emotion.json");
-      let data = emotionsJson.map(val => {
+      let emotionsJsonW = require("../assets/weibo-word-emotion.json");
+      let emotionsJsonZ = require("../assets/zhihu-word.json");
+      let weiboData = emotionsJsonW.map(val => {
         return {
           name: val["word"],
           value: val["freq"]
         };
       });
-
+      let zhihuData = emotionsJsonZ.map(val => {
+        return {
+          name: val["word"],
+          value: val["freq"]
+        };
+      });
+      let data = weiboData.concat(zhihuData)
       let myChart = this.$echarts.init(document.getElementById("wordcloud"));
       const option = {
         title: {
@@ -39,7 +46,7 @@ export default {
             //   readOnly: false
             // },
             // restore: { show: true },
-            saveAsImage: { show: true },
+            saveAsImage: { show: true }
           }
         },
         // backgroundColor: "rgba(230, 220, 220, 0.4)",

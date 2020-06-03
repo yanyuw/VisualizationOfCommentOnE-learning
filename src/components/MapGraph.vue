@@ -45,7 +45,7 @@ export default {
           // color: "#00eeff",
           min: 0,
           max: 1,
-          left: 400,
+          left: 350,
           top: "bottom",
           text: ["积极", "消极"], // 文本，默认为数值文本
           calculable: true,

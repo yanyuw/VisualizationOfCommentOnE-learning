@@ -60,7 +60,7 @@ body {
   height: 250px;
 
   background: url(./assets/kuang.png) no-repeat;
-  padding: 0 20px 20px;
+  padding: 0 20px 10px;
   background-size: 100% 100%;
 }
 .trend,
@@ -71,9 +71,9 @@ body {
   width: 25%;
   height: 250px;
   margin-top: -20px;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .box-container {
   /* display: flex;

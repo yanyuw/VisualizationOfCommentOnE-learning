@@ -18,7 +18,7 @@ export default {
       // var app = {};
       const option = {
         title: {
-          text: "微博指数",
+          text: "微博官方数据条数变化趋势",
           textStyle: {
             fontSize: 20, //字体大小
             color: "#ffffff" //字体颜色
@@ -39,10 +39,12 @@ export default {
         grid: {
           left: "3%",
           right: "4%",
-          bottom: "3%",
+          bottom: "11%",
           containLabel: true
         },
         toolbox: {
+          x: "center",
+          y: "bottom",
           feature: {
             mark: { show: true },
             dataView: {

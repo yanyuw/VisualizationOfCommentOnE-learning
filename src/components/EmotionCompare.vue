@@ -56,7 +56,7 @@ export default {
         grid: {
           left: "3%",
           right: "4%",
-          bottom: "3%",
+          bottom: "11%",
           containLabel: true
         },
         legend: {
@@ -68,6 +68,8 @@ export default {
           }
         },
         toolbox: {
+          x: "center",
+          y: "bottom",
           feature: {
             mark: { show: true },
             dataView: {
@@ -147,7 +149,7 @@ export default {
         grid: {
           left: "3%",
           right: "4%",
-          bottom: "3%",
+          bottom: "11%",
           containLabel: true
         },
         legend: {
@@ -159,6 +161,8 @@ export default {
           }
         },
         toolbox: {
+          x: "center",
+          y: "bottom",
           feature: {
             mark: { show: true },
             dataView: {
