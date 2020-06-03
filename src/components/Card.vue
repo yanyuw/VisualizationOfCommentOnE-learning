@@ -53,16 +53,11 @@ export default {
 <style scoped>
 .card {
   display: inline-block;
-  /* width: 200px;
-  height: 120px; */
-  /* margin: 30px auto; */
   text-align: center;
-  /* background: url(../assets/kuang.png) no-repeat; */
   padding: 20px;
   background-size: 100% 100%;
   color: #fff;
   vertical-align: top;
-  /* overflow: hidden; */
   line-height: 30px;
 }
 .total-title {
@@ -73,9 +68,9 @@ export default {
 }
 .title {
   
-  width: 300px;
+  width: 80%;
   display: inline-block;
-  margin-left: -100px;
+  margin-left: -20%;
   letter-spacing: 2px;
 }
 .num {
@@ -84,7 +79,7 @@ export default {
   letter-spacing: 5px;
 }
 .text-container {
-  width: 400px;
+  width: 100%;
   margin: 15px auto;
   font-size: 20px;
 }

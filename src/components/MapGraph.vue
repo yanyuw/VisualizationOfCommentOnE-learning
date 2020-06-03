@@ -67,7 +67,8 @@ export default {
         toolbox: {
           show: true,
           orient: "vertical",
-          left: "right",
+          // left: 200,
+          right: 400,
           top: "center",
           feature: {
             mark: { show: true },

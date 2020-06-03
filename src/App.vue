@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/header.png" class="header" />
+    <FullscreenBtn />
     <MapGraph />
     <!-- <div class="box-container"> -->
     <div class="top box">
@@ -26,6 +27,7 @@ import MapGraph from "./components/MapGraph.vue";
 import EmotionCompare from "./components/EmotionCompare.vue";
 import Card from "./components/Card.vue";
 import Wordcloud from "./components/Wordcloud.vue";
+import FullscreenBtn from "./components/FullscreenBtn.vue";
 export default {
   name: "App",
   components: {
@@ -34,7 +36,8 @@ export default {
     MapGraph,
     EmotionCompare,
     Card,
-    Wordcloud
+    Wordcloud,
+    FullscreenBtn
   }
 };
 </script>
@@ -53,7 +56,7 @@ body {
   height: 0;
 }
 .container {
-  width: 500px;
+  /* width: 500px; */
   height: 250px;
 
   background: url(./assets/kuang.png) no-repeat;
@@ -64,9 +67,13 @@ body {
 .compare,
 .card,
 .wordcloud {
+
+  width: 25%;
+  height: 250px;
   margin-top: -20px;
   padding: 20px;
   display: inline-block;
+  overflow: hidden;
 }
 .box-container {
   /* display: flex;

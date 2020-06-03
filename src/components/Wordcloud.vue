@@ -76,11 +76,11 @@ export default {
             },
             //位置相关设置
             left: "center",
-            top: 20,
+            top: 40,
             right: null,
             bottom: null,
-            width: "100%",
-            height: "100%",
+            width: "95%",
+            height: "95%",
             //数据
             data: data
           }
